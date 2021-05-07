@@ -1,7 +1,6 @@
 #coding = utf-8
 from selenium import webdriver
-from time import sleep, ctime
-import os
+from time import sleep
 
 options = webdriver.ChromeOptions()
 #这里是chrome浏览器可执行文件的地址(一般在C:\Program Files\Google,下)
